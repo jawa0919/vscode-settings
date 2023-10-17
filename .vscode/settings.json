@@ -1,0 +1,138 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    "editor.rulers": [
+        80,
+        120,
+        160,
+        180,
+        200
+    ],
+    "editor.guides.bracketPairs": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true,
+        "zh-hant": true
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.cjs": "$(capture).cjs.map, $(capture).*.cjs, $(capture)_*.cjs",
+        "*.component.ts": "$(capture).component.html, $(capture).component.spec.ts, $(capture).component.css, $(capture).component.scss, $(capture).component.sass, $(capture).component.less",
+        "*.css": "$(capture).css.map, $(capture).*.css",
+        "*.dart": "$(capture).freezed.dart, $(capture).g.dart",
+        "*.js": "$(capture).js.map, $(capture).*.js, $(capture)_*.js",
+        "*.jsx": "$(capture).js, $(capture).*.jsx, $(capture)_*.js, $(capture)_*.jsx",
+        "*.ts": "$(capture).js, $(capture).d.ts.map, $(capture).*.ts, $(capture)_*.js, $(capture)_*.ts",
+        "*.tsx": "$(capture).ts, $(capture).*.tsx, $(capture)_*.ts, $(capture)_*.tsx",
+        ".env": "*.env, .env.*, .envrc, env.d.ts",
+        ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+        "pubspec.yaml": ".metadata, .packages, all_lint_rules.yaml, analysis_options.yaml, build.yaml, pubspec.lock, .flutter-plugins, .flutter-plugins-dependencies",
+        "shims.d.ts": "*.d.ts",
+        "vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+        "main.dart": "main_*.dart",
+        "tsconfig.json": "tsconfig.*.json",
+    },
+    "files.eol": "\n",
+    "files.associations": {
+        "*.arb": "json",
+        "*.config.json": "jsonc",
+        "*Config.json": "jsonc"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.allowCompoundWords": true,
+    "cSpell.userWords": [
+        "ARGB",
+        "Easc",
+        "eruda",
+        "flavorizr",
+        "gitee",
+        "jawa",
+        "LTRB",
+        "Pinia",
+        "pnpm",
+        "scrcpy",
+        "unocss",
+        "vant",
+        "vite",
+        "writeln"
+    ],
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80,
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.devToolsLocation": "external",
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios",
+    ],
+    "git.autofetch": true,
+    "commentTranslate.targetLanguage": "zh-CN",
+    "commentTranslate.googleTranslate.mirror": "https://translate.amz.wang",
+    "github.gitProtocol": "ssh",
+    "path-autocomplete.pathMappings": {
+        "@": "${workspaceFolder}/src"
+    },
+    "todo-tree.general.showActivityBarBadge": false,
+    "rest-client.previewOption": "exchange"
+}
